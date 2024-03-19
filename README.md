@@ -14,6 +14,8 @@ Steps to setup:
 5. Run the bash script `bash rpi-usb.sh`
 6. Reboot the Pi `sudo reboot`
 
-
+Credits 
+1. https://github.com/kmpm/rpi-usb-gadget/tree/master
+2. https://raw.githubusercontent.com/thagrol/Guides/main/mass-storage-gadget.pdf
 
    
