@@ -10,7 +10,7 @@ Steps to setup:
 4. Format the backing store:
     1. Attach the backing store to a loop device - `sudo losetup --show -fP /usbstore.img`
     2. Initialise, partition and format to the FAT32 filesystem - `sudo mkfs.vfat -F 32 /dev/loop0` (or replace `/dev/loop0` with the output from the previous step, if not identical)
-    3. Detach the backing store from the loop device - `sudo losetup -d /usbstore.img`
+    3. Detach the backing store from the loop device - `sudo losetup -d /usbstore.img` [or `sudo losetup -d /dev/loop0`]
 5. Run the bash script `bash rpi-usb.sh`
 6. Reboot the Pi `sudo reboot`
 
